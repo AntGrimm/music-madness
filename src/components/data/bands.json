@@ -1,7 +1,7 @@
 {
   "bands": {
     "threeDoorsDown": {
-      "tagline": "3 Doors Down",
+      "bandName": "3 Doors Down",
       "albums": [
         {
           "title": "The Better Life",
@@ -21,11 +21,11 @@
       ]
     },
     "rollingStones": {
-      "tagline": "The Rolling Stones",
+      "bandName": "The Rolling Stones",
       "albums": [
         {
           "title": "Let It Bleed",
-          "image": "https://images-na.ssl-images-amazon.com/images/I/81Ut0SKKVhL._SY355_.jpgs",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/91WsVWVi9RL._SY355_.jpg",
           "year": "1969"
         },
         {
@@ -41,7 +41,7 @@
       ]
     },
     "beatles": {
-      "tagline": "The Beatles",
+      "bandName": "The Beatles",
       "albums": [
         {
           "title": "Help!",

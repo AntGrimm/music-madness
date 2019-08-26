@@ -17,9 +17,9 @@ export class Band extends Component {
   render() {
     return (
       <>
-        <header>{this.props.match.params.title}</header>
-        <section>
-          <img src={this.state.band.image} />
+        <section className="album-info">
+          <header>{this.props.match.params.title}</header>
+          <img className="album-image" src={this.state.band.image} />
           <h3>Year Released: {this.state.band.year}</h3>
         </section>
       </>

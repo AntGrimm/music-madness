@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export class Bands extends Component {
   state = {
     category: {
-      tagline: '',
+      bandName: '',
       albums: []
     },
     wasFound: true
@@ -24,12 +24,19 @@ export class Bands extends Component {
     }
   }
 
+  static getDerivedStateFromProps(props) {
+    const currentSelection = data.bands[props.match.params.category]
+    return {
+      category: currentSelection
+    }
+  }
+
   render() {
     return (
       <>
         {this.state.wasFound ? (
           <>
-            <header>{this.state.category.tagline}</header>
+            <header>{this.state.category.bandName}</header>
             <main>
               <ul>
                 {this.state.category.albums.map((item, i) => {

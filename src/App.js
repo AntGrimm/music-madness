@@ -10,8 +10,8 @@ class App extends Component {
     return (
       <Router>
         <header>
-          <h1>Tony's Bands!</h1>
-          <nav>
+          <h1 className="main-header">Tony's Bands!</h1>
+          <nav className="nav-bar">
             <ul>
               <li>
                 <Link to="/">Go Home</Link>
@@ -23,6 +23,7 @@ class App extends Component {
                 <Link to="/rollingStones">The Rolling Stones</Link>
               </li>
               <li>
+                {/* <a href="/beatles">The Beatles</a> */}
                 <Link to="/beatles">The Beatles</Link>
               </li>
             </ul>
