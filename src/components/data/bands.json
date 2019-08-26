@@ -1,0 +1,64 @@
+{
+  "bands": {
+    "threeDoorsDown": {
+      "tagline": "3 Doors Down",
+      "albums": [
+        {
+          "image": "https://images-na.ssl-images-amazon.com/images/I/81X2cWN8amL._SY355_.jpg",
+          "title": "The Better Life",
+          "year": "2000"
+        },
+        {
+          "image": "img",
+          "title": "Away from the Sun",
+          "year": "2002"
+        },
+        {
+          "image": "img",
+          "title": "Us and the Night",
+          "year": "2016"
+        }
+      ]
+    },
+    "rollingStones": {
+      "tagline": "The Rolling Stones",
+      "albums": [
+        {
+          "image": "img",
+          "title": "Let It Bleed",
+          "year": "1969"
+        },
+        {
+          "image": "img",
+          "title": "Sticky Fingers",
+          "year": "1971"
+        },
+        {
+          "image": "img",
+          "title": "Exile on Main St.",
+          "year": "1972"
+        }
+      ]
+    },
+    "beatles": {
+      "tagline": "The Beatles",
+      "albums": [
+        {
+          "image": "img",
+          "title": "Help!",
+          "year": "1965"
+        },
+        {
+          "image": "img",
+          "title": "Revolver",
+          "year": "1966"
+        },
+        {
+          "image": "img",
+          "title": "Sgt. Peppers Lonely Hearts Club Band",
+          "year": "1967"
+        }
+      ]
+    }
+  }
+}
