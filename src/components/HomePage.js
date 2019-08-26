@@ -9,13 +9,13 @@ export class HomePage extends Component {
         <main>
           <ul>
             <li>
-              <Link to="/band1">Three Doors Down</Link>
+              <Link to="/threeDoorsDown">Three Doors Down</Link>
             </li>
             <li>
-              <Link to="/band2">The Rolling Stones</Link>
+              <Link to="/rollingStones">The Rolling Stones</Link>
             </li>
             <li>
-              <Link to="/band3">The Beatles</Link>
+              <Link to="/beatles">The Beatles</Link>
             </li>
           </ul>
         </main>

@@ -38,9 +38,9 @@ export class Bands extends Component {
                       <Link
                         to={`/${this.props.match.params.category}/${item.title}`}
                       >
-                        <img src={item.image} />
                         <h3>{item.title}</h3>
-                        <h3>{item.year}</h3>
+                        {/* <img src={item.image} /> */}
+                        {/* <h3>{item.year}</h3> */}
                       </Link>
                     </li>
                   )
